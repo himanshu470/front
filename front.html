@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="bootstrap-4.5.2-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="bootstrap-4.5.2-dist/js/bootstrap.min.js" type="text/css" rel="stylesheet">
+    <link href="front.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+<body>
+<!--starting of nav-->
+<nav class="navbar  navbar-light ">
+
+    <div class="col-12">
+        <div class="" id="navbarSupportedContent">
+            <ul class="navbar-nav  d-flex align-items-center flex-row">
+                <div class="col-6 d-flex">
+                    <a class="navbar-brand" href="#"><img src="images/usa.jpg" width="24px"></a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            United State
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">English</a>
+                            <a class="dropdown-item" href="#">Deutsch</a>
+                            <a class="dropdown-item" href="#">Espanol</a>
+                        </div>
+                    </li>
+                </div>
+
+                <div class="col-6">
+                    <li class="nav-item d-flex float-right">
+                        <a class="nav-link px-3" href="#">Help</a>
+                        <a class="nav-link px-3" href="#">Contact</a>
+                        <i class="fas fa-search px-3 mt-2" style="color: darkgrey"></i>
+                        <i class="fas fa-shopping-cart mt-2 px-3" style="color: darkgrey"></i>
+                        <i class="fas fa-id-card-alt px-3 mt-2" style="color: darkgrey"></i>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--closing of nav-->
+
+<!--opening of navbar-->
+
+<div class="container-fluid">
+    <nav class="navbar py-3 navbar-dark navbar-expand-sm bg-white ">
+        <a href="#" class="navbar-brand"><img src="./images/font.jpg" width="125px"></a>
+        <button class="navbar-toggler bg-light text-dark rounded-circle" type="button" data-toggle="collapse"
+                data-target="#navbarlinks">
+            <span class="navbar-toggler-icon text-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarlinks">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a href="#" class=" pl-5 nav-link text-dark dropdown-toggle text-muted" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Landings</a>
+<!--                    <ul class="list-unstyled m-0 p-0">-->
+<!--                        <li class="nav-item1">-->
+
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Classic</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Agency</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Analytics</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Studio</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marketing</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Advertisement</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consulting</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Software</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Business</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">App</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">UI Kit</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SaaS</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Workflow</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Payment</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tool</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Onepages</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Corporate</a>-->
+<!--                            <a href="#" class=" pl-5 nav-link text-dark text-muted" role="button"-->
+<!--                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SaaS</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+                </li>
+                <li class="nav-item">
+                    <a href="#" class=" px-4 nav-link text-dark dropdown-toggle text-muted" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class=" px-4 nav-link text-dark dropdown-toggle text-muted" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="px-4 nav-link text-dark dropdown-toggle text-muted" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="px-4 nav-link text-dark dropdown-toggle text-muted" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class=" px-4 nav-link text-dark dropdown-toggle text-muted" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
+                </li>
+                <li>
+                    <button class="button  bg-primary text-light border-0 d- rounded px-3 py-2">Buy Now</button>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</div>
+<!--navbar ends-->
+
+
+<!--turns your idea opening-->
+
+<section>
+    <div class="container py-5">
+        <div class="row">
+                   <div class="col">
+                      <h1 class="display-5">Turn your ideas into a <span class="text-primary">startup.|</span></h1>
+                       <h5 class="text-muted py-3">Front's feature-rich designed demo pages help you create the best possible product.</h5>
+                               <button class="button bg-primary text-light py-3 px-4 border-0 rounded">Get Startded</button>
+                               <button class="button bg-white text-primary py-3 px-4 border-0 rounded">Learn More ></button>
+                   </div>
+            <div class="col">
+                <img src="images/turn.jpg" width="450px" height="560px " class="pt-3">
+            </div>
+        </div>
+
+    </div>
+</section>
+     <!--turn close-->
+
+<!-- cards-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h4 class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9 display-5">Learn to develop sites with components and design systems</h4>
+        </div>
+            <div class="row">
+            <div class="col-6 col-md-4 col-lg-4">
+                <div class="card pl-3" style="width: 94% ;height: 94%">
+                    <div class="card-body border-white bg-primary rounded">
+                        <h5 class="card-title text-light pt-3">Documentation</h5>
+                        <p class="card-text text-light">Discover how to build and maintain coding using our documentation.</p>
+                           <img src="images/card1.jpg" width="180px" height="150px">
+                             <button class="button  text-white py-3 px-4 border-0 rounded">Learn More ></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4">
+                <div class="card pl-3" style="width: 94%;height: 96%">
+                    <div class="card-body border-white rounded" style="background-color:#141E38">
+                        <h5 class="card-title text-light pt-3">Snippets</h5>
+                        <p class="card-text text-light">Start browsing our snippet pages with coop-to-clipboard snippets to match Bootstrap's level of quality</p>
+                           <img src="images/ca1.jpg" width="180px" height="150px">
+                             <button class="button text-white py-3 px-4 border-0 rounded" style="background-color:#141E38">Start building ></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4">
+                <div class="card pl-3" style="width: 94%;height: 96%">
+                    <div class="card-body border-white  rounded" style="background-color: rgb(245,202,153);">
+                        <h5 class="card-title text-light pt-3" >Layout options</h5>
+                        <p class="card-text text-light">Apart from 70+ HTML-pages, the theme comes with 3 ready-to-use and stand-alone demo options.</p>
+                           <img src="images/ca2.jpg" width="180px" height="150px">
+                             <button class="button  text-white py-3 px-4 border-0 rounded" style="background-color: rgb(245,202,153)">View examples More ></button>
+
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>
+    </div>
+</section>
+<!--cards close-->
+
+<!--lewis card start-->
+<section class="py-5">
+    <div class="container rounded"style="background-color: #F7FAFF">
+        <div class="row d-flex">
+            <div class="col-12 col-md-4 order-md-1 col-lg-4 order-lg-1 flex-row">
+              <img src="images/qo.jpg">
+                <p class="pt-4" style="font-size: 19px">I'm absolutely floored by the level of care and attention to detail the team at Htmlstream have put into this theme and for one can guarantee that I will be a return customer.</p>
+                <p>Lewis--<span class="text-muted">happy customer</span></p>
+            </div>
+
+              <div id="mainquotation" class="col-12 col-md-4 order-md-0 col-lg-4 order-lg-0 flex-row">
+               <img src="images/qo1.jpg" width="30px"  id="quotation">
+              </div>
+
+              <div class="pt-3 col-12 col-md-4 col-lg-4 order-12 flex-row">
+              <span class="text-primary" style="font-size: 30px">3,500+</span>
+              <p class="text-muted">Leaders use Front to build a startup, ecommerce, portfolio and many more websites.</p>
+              <button type="button" class="text-primary border-0" style=" background-color: #F7FAFF">Read the case studies ></button>
+              </div>
+        </div>
+    </div>
+</section>
+<!--lewis card close-->
+
+<section>
+    <div class="container">
+        <div class="row d-flex ">
+                <div class="col-12 col-sm-12 col-md-6 order-md-12 col-lg-6 order-lg-12 flex-row">
+                    <img src="images/qo2.jpg" width="410px" style="margin-left: 10px">
+                </div>
+            <div class="col-12 col-sm-12 col-md-6 order-md-0 col-lg-6 order-lg-0 py-5 flex-row">
+                <p class="pl-1 pt-5 font-weight-bold">The powerful and flexible theme for all kinds of businesses</p>
+                <p class="text-muted pl-1"style="font-size: 14px ;color: grey">Whether you're creating a subscription service, an on-demand marketplace, an e-commerce store, or a portfolio showcase, Front's unmatched functionality help you create the best possible product for your users.</p>
+
+                <span class="text-primary" style="font-size: 22px">300 +</span>
+                <p style="font-size: 14px ;color: grey">Build a professional website with corporate and SaaS based components.</p>
+
+                <span class="text-primary" style="font-size: 22px">70 +</span>
+                <p style="font-size: 14px ;color: grey">Take advantage of more than 70 pages designed with mobile-first in mind.</p>
+                <div class="w-100 d-none d-md-block"></div>
+                <span class="text-primary" style="font-size: 22px">95 +</span>
+                <p style="font-size: 14px ;color: grey">of our customers rated 5-star our themes over 5 years.</p>
+
+                <span class="text-primary" style="font-size: 22px">20 +</span>
+                <p style="font-size: 14px;color: grey">We continually deploy improvements to Front, which handles more than 3.5k users.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--front in acion-->
+<section class="pt-5 text-center">
+    <div class="container py-5"   style=" background-color: #F7FAFF">
+        <div class="row">
+            <div class="col text-center ">
+                <h5 >Front in action</h5>
+                <p class="text-muted pb-3" style="font-size: 13px">All examples you find below are included in the download package.</p>
+            </div>
+        </div>
+
+        <div class="land row bg-white" id="scrollspy">
+            <div class="d-flex">
+                <a href="#" class="d-flex justify-content-between align-items-center m4-4 mx-lg-0 ">
+                    Landings
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Landings pages
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Account pages
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Portfolio
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Blogs
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Supporting Pages
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                     Authentications
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Shop
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Course
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    App Marketplace
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                Help Desk
+                    <span class="badge badge-dark mx-3">4</span></a>
+        </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 bg-white" id="scrollspysecond">
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Landings
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Landings pages
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Account pages
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Portfolio
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Blogs
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Supporting Pages
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Authentications
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Shop
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Course
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    App Marketplace
+                    <span class="badge badge-dark mx-3">4</span></a>
+
+                <a href="#" class="d-flex justify-content-between align-items-center mx-4 mx-lg-0 ">
+                    Help Desk
+                    <span class="badge badge-dark mx-3">4</span></a>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-9 col-lg-9">
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <img src="images/action.jpg" width="200px" class="py-3">
+                            <p class="text-center">Agency<span class="text-muted">(Current page)</span></p>
+                    </div>
+                    <div class=" col-6 col-md-4 col-lg-4">
+                        <img src="images/action1.jpg" width="200px" class="py-3">
+                            <p class="text-center">Analytics</p>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <img src="images/action2.jpg" width="200px" class="py-3">
+                            <p class="text-center">Studio</p>
+                    </div>
+                    <div class=" col-6 col-md-4 col-lg-4">
+                        <img src="images/action3.jpg" width="200px" class="py-3">
+                            <p class="text-center">Marketing</p>
+                    </div>
+                    <div class=" col-6 col-md-4 col-lg-4">
+                        <img src="images/action4.jpg" width="200px" class="py-3">
+                            <p class="text-center">Advertisement</p>
+                    </div>
+                    <div class=" col-6 col-md-4 col-lg-4">
+                        <img src="images/action5.jpg" width="200px" class="py-3">
+                            <p class="text-center">Consulting</p>
+                    </div>
+                    <div class=" col-6 col-md-4 col-lg-4">
+                        <img src="images/action6.jpg" width="200px" class="py-3">
+                            <p class="text-center">Portfolio</p>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <img src="images/action7.jpg" width="200px" class="py-3">
+                            <p class="text-center">Software</p>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <img src="images/action8.jpg" width="200px" class="py-3">
+                            <p class="text-center">Business</p>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <img src="images/action9.jpg" width="200px" class="py-3">
+                            <p class="text-center">UI Kit</p>
+                    </div>
+                    <div class=" col-6 col-md-4 col-lg-4">
+                        <img src="images/action10.jpg" width="200px" class="py-3">
+                            <p class="text-center">SaaS</p>
+                    </div>
+                    <div class=" col-6 col-md-4 col-lg-4">
+                        <img src="images/action11.jpg" width="200px" class="py-3">
+                            <p class="text-center">Tool</p>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <img src="images/action12.jpg" width="200px" class="py-3">
+                            <p class="text-center">Payment</p>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                        <img src="images/action13.jpg" width="200px" class="py-3">
+                            <p class="text-center">Workflow</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--front in action close-->
+
+<!--transparent pricing start-->
+<section>
+    <div class="container-fluid pt-5 text-center">
+        <h4 class="pt-5">Simple, transparent pricing</h4>
+        <p class="pb-5" style="font-size: 13px">Everything you need to continuously build, connect, and ship award-winning cross-browser websites.</p>
+        <div class="row justify-content-center">
+                <div class="col col-sm-6 col-md-8 col-lg-8 ">
+                    <div class="card  py-3 mb-3 bg-white align-items-center">
+                        <i class="far fa-circle text-primary "></i>
+                        <h4 class="my-3 ">Standard <span class="text-muted" style="font-size: 13px">Single site</span></h4>
+                        <p class="text-muted">Ideal for corporate, portfolio, blog, shop and many more.</p>
+                        <a href="#" class="btn btn-outline-primary   rounded mt-3 py3 px-4" style="font-size: 13px">Purchase for $49</a>
+                    </div>
+                    <div class="card  py-3 mb-3 bg-white align-items-center">
+                        <i class="fas fa-compact-disc fa-2x text-primary "></i>
+                        <h4 class="my-3 ">Multisite <span class="text-muted" style="font-size: 13px">Unlimited sites</span></h4>
+                        <p class="text-muted">All the same examples as the Standard License, but you could build all of them with a single Multisite license.</p>
+                        <a href="#" class="btn btn-outline-primary  rounded mt-3 py3 px-4" style="font-size: 13px">Purchase for $149</a>
+                    </div>
+                    <div class="card  py-3 mb-3 bg-white align-items-center">
+                        <i class="far fa-circle fa-3x text-primary "></i>
+                        <h4 class="my-3 ">Extended <span class="text-muted" style="font-size: 13px">For paying users</span></h4>
+                        <p class="text-muted">Best suited for "paid subscribers" and SaaS analytics applications.</p>
+                        <a href="#" class="btn btn-outline-primary  rounded mt-3 py3 px-4" style="font-size: 13px">Purchase for $599</a>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</section>
+<!--transparent pricing end-->
+
+<!--Build tools start-->
+<section>
+    <div class="container pt-5 text-center">
+        <div class="row">
+            <div class="col">
+                <h4>Build tools and full documention</h4>
+                <span class="text-muted" style="font-size: 13px">Components, plugins, and build tools are all thoroughly documented with live examples and markup for easier use and customization.</span>
+                <img src="images/build.jpg" width="400px" class="pt-5">
+                <p class="pt-3 text-muted">Not comfortable diving that deep? No worries, you just use the compiled CSS and examples pages!<button class="button text-primary bg-white border-0">Learn more ></button> </p>
+                <i class="fab fa-bootstrap fa-3x p-4 text-muted"></i>
+                <i class="fab fa-sass fa-3x p-4 text-muted"></i>
+                <i class="fab fa-gulp fa-3x p-4 text-muted"></i>
+                <i class="fab fa-npm fa-3x p-4 text-muted"></i>
+                <button class="button text-white bg-primary border-0 rounded px-3 py-2">Get a License for $49</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Build tools end-->
+
+<section class="pt-5">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center py-2">
+                <i class="fas fa-star fa-1x"></i>
+                <p>4.83 out of 5 starts<span class="text-muted"> from 53 reviews</span></p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 text-center py-2">
+                <i class="fas fa-users fa-2x"></i>
+                <p class="text-muted">Over <span>500</span> support questions have been closed</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 text-center py-2">
+                <i class="far fa-file fa-3x"></i>
+                <p class="text-muted"><span>3,700</span> Front copies have been purchased</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer start-->
+<section>
+    <div class="container-fluid py-5 " style="background-color:rgb(33,50,91)">
+        <div class="row  justify-content-lg-center">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2">
+                <img src="images/footer.jpg" width="140px" class="pl-5 pt-2">
+                <ul class="list-unstyled pl-5  pt-3 text-white">
+                    <li><a href="#" class="text-decoration-none text-muted">153 Williamson plaza, Maggieberg</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">+1 (062) 109-9222</a></li>
+                </ul>
+            </div>
+
+
+        <div class="row">
+            <div class="col col-sm-2 col-md-6 col-lg-6">
+                <ul class="list-unstyled pl-5 pt-3 text-white">
+                    <li ><a href="#" class="active text-decoration-none text-white">Company</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">About</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted"> Careers<button class="button rounded bg-primary text-white border-0 position-absolute mt-1 ml-2" style="font-size: 10px">We're hiring</button></a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Blog</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Customers</a></li>
+                    <li><a href="#"class="text-decoration-none text-muted">Hire us</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col col-sm-2 col-md-6 col-lg-6">
+                <ul class="list-unstyled pl-5 pt-3 text-white">
+                    <li ><a href="#" class="active text-decoration-none text-white">Features</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Press</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted"> Release motes</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Integrations</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Pricing</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row pl-5">
+            <div class="col col col-sm-2 col-md-6 col-lg-6">
+                <ul class="list-unstyled  pt-3 text-white">
+                    <li ><a href="#" class="active text-decoration-none text-white">Documentation</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Support</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted"> Docs</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Status</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">API Reference</a></li>
+                    <li><a href="#"class="text-decoration-none text-muted">Tech Requirement</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col col col-sm-2 col-md-6 col-lg-6">
+                <ul class="list-unstyled  pt-3 text-white">
+                    <li ><a href="#" class="active text-decoration-none text-white">Resources</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Help</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Your Account</a></li>
+                </ul>
+            </div>
+        </div></div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5 text-muted">
+                    <span class="pl-4">Privacy & Policy</span>
+                    <span class="pl-5">Terms</span>
+                    <span class="pl-5">Site Map</span>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5 pl-4 d-flex justify-content-center">
+                    <i class="fab fa-facebook-f pl-3 text-white"></i>
+                    <i class="fab fa-google pl-3 text-white"></i>
+                    <i class="fab fa-twitter-square pl-3 text-white"></i>
+                    <i class="fab fa-instagram pl-3 text-white"></i>
+                    <div class="btn dropup pl-3">
+                        <button type="button" class="btn btn-light dropdown-toggle py-1 px-3" style="font-size: 12px;margin-top: -20px" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            United State
+                        </button>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">English</a>
+                                <a class="dropdown-item" href="#">Deutsch</a>
+                                <a class="dropdown-item" href="#">Espanol</a>
+                                <a class="dropdown-item" href="#">italiano</a>
+                                <a class="dropdown-item" href="#">@#$%</a>
+                                <a class="dropdown-item" href="#">%$@@</a>
+                                <a class="dropdown-item" href="#">Nederlands</a>
+                                <a class="dropdown-item" href="#">Portugues</a>
+                                <a class="dropdown-item" href="#">Puccknn</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="row">
+            <div class="col text-center text-muted pt-3">
+                <span style="font-size: 10px">© Front. 2020 Htmlstream. All rights reserved.</span>
+                <p style="font-size: 10px">When you visit or interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer end-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
